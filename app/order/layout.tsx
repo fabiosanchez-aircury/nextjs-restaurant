@@ -11,7 +11,7 @@ export default function RootLayout({
       <div className="md:flex">
         <OrderSidebar></OrderSidebar>
 
-        <main className="md:flex-1 md:h-screen md:overflow-y-scroll">
+        <main className="md:flex-1 md:h-screen md:overflow-y-scroll p-2">
           {children}
         </main>
 
